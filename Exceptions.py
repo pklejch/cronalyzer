@@ -1,0 +1,2 @@
+class DayOfWeekException(BaseException):
+    pass

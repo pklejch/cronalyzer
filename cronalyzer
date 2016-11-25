@@ -1,0 +1,12 @@
+#!/bin/bash
+#wrapper pro cronalyzer pouzity pro spousteni nastroje po nainstalovani deb balickem
+
+config="$1"
+
+if [ "$config" == "" ]
+then
+	config="/etc/cronalyzer/config.conf"
+fi
+
+#main soubor nastroje a vychozi konfig. jako argument
+/usr/share/cronalyzer/main.py "$config"
