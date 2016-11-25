@@ -20,7 +20,7 @@ from functions import handler
 from functions import checkLogFile
 import sys
 import optimize
-    
+
 def main():    
     #pokud neni zadan skript, zkusi se doplnit z aktualniho adresare
     if len(sys.argv[1:]) == 0:
